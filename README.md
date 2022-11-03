@@ -7,13 +7,13 @@
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   
  <img
-  src="/Images/dailysalesnormalized.jpg"
+  src="/Images/dailysalesnormalized.JPG"
   alt="dailysalesnormalized"
   title="dailysalesnormalized"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   
  <img
-  src="/Images/exponentialcurve.jpg"
+  src="/Images/exponentialcurve.JPG"
   alt="exponentialcurve"
   title="exponentialcurve"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
