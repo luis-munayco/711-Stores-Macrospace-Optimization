@@ -3,10 +3,10 @@
 Analysis of occupied spaces of the beverages products categories in 711 stores in Phillipines. The aim of the project was determinated what would be the best distribution of products in all the stores to optimize the sales. For this purpuse, we analyzed data of millions of transactions (+ 10 GB) in all stores over the past 6 months. Data is stored in a Amazon Redshift Warehouse.
 
 For our purpouse we are working with data of 5 beverages categories:
-Category 21: Juices and Teas
-Category 24: Softdrinks
-Category 27: Bottle Water
-Category 31: Dairy
+Category 21: Juices and Teas/
+Category 24: Softdrinks/
+Category 27: Bottle Water/
+Category 31: Dairy/
 Category 32: Beer
 
 Objectives and tasks:
