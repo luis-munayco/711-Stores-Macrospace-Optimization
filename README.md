@@ -19,22 +19,25 @@ Objectives and tasks:
 Software: 1- Python/  2- PostgreSQL  /  3- Power BI
 
 The process begins with the data preparation. Transaction data is downloaded from an AWS Redshift data warehouse. For the analysis purpouse, six months of transaction data in the beverages categories are gathered and analyzed.
+
 <img
   src="/Images/Salesbymonth.JPG"
   alt="Salesbymonth"
   title="Salesbymonth"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
 
-Transaction data is cleaning and then merged with data of width shelfs and planograms. The idea is , first, to calculate the daily sales by store in each category. 
+Transaction data is cleaning and then merged with data of width shelfs and planograms. The idea is , first, to calculate the daily sales by store in each category. However Daily Sales value need to be normalized in order to make comparion possible between large and small stores. Number of transactiones is used as factor to normalize the DailySales value.
+
  <img
   src="/Images/dailysalesnormalized.JPG"
   alt="dailysalesnormalized"
   title="dailysalesnormalized"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 150px">
   
-  Given that we look for optimized the space use in each store, we need to calculate a new indicator, indicator DailySales/Width, where Width is the linear space occupied by that category.  To built the math exponential model, the average of the DailySales/Width value is calculated , and Width 
+  Given that we look for optimized the space use in each store, we need to calculate a new indicator, indicator DailySales/Width, where Width is the linear space occupied by that category.  To built the math exponential model, the average of the DailySales/Width value is calculated , and Width is used as invariable parameter in the exponential model.
+  
  <img
   src="/Images/exponentialcurve.JPG"
   alt="exponentialcurve"
   title="exponentialcurve"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 150px">
